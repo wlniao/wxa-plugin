@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "emoji": "plugin://core/emoji"
+  }
+}

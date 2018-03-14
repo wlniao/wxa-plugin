@@ -1,0 +1,6 @@
+<view>
+  <input value="{{text}}" type="text" cursor-spacing="7" maxlength="100" bindinput="bindMsgInput" />
+</view>
+<view>
+  <emoji text="{{text}}" />
+</view>

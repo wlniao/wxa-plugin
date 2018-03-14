@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/emoji/index"
+  ],
+  "plugins": {
+    "core": {
+      "version": "dev",
+      "provider": "wx7f4c36734bb7ca4a"
+    }
+  }
+}

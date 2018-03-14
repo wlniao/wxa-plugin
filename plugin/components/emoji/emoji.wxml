@@ -1,0 +1,6 @@
+<view class="emojiView">
+  <block wx:for="{{emojiText}}" wx:key="">
+    <block wx:if="{{item.node=='emoji'}}"><icon class="{{item.class}} {{item.txt}}"></icon></block>
+    <block wx:else="{{item.node=='text'}}"><text class="{{item.class}}-text">{{item.txt}}</text></block>
+  </block>
+</view>

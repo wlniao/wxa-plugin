@@ -1,0 +1,6 @@
+{
+  "publicComponents": {
+    "emoji": "components/emoji/emoji"
+  },
+  "main": "index.js"
+}

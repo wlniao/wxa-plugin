@@ -1,0 +1,2 @@
+/* pages/emoji/index.wxss */
+input{border:1px solid #ccc}
