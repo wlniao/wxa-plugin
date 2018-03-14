@@ -1,7 +1,7 @@
 var plugin = requirePlugin("core")
 Page({
   data: {
-    text: ''
+    text: '[微笑]你好'
   },
   onLoad: function() {
     console.log(plugin);
