@@ -1,2 +1,8 @@
-/* pages/emoji/index.wxss */
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+label{font-size:12px;margin:6px;}
+.showEmoji{line-height:16px;font-size:15px;margin:6px;}
 input{border:1px solid #ccc}

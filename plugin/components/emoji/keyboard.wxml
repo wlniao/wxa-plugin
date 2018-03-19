@@ -1,0 +1,5 @@
+<view class="emojiInput" catchtap="onEmpty">
+  <block wx:for="{{emojiShow}}" wx:key="">
+    <icon class="{{item.class}} {{item.icon}} emojiSelect" catchtap="onTap" data-txt="{{item.txt}}"></icon>
+  </block>
+</view>

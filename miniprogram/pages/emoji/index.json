@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "emoji": "plugin://core/emoji"
+    "emoji": "plugin://core/emoji",
+    "keyboard": "plugin://core/keyboard"
   }
 }

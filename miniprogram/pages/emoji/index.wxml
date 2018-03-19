@@ -1,6 +1,18 @@
 <view>
-  <input value="{{text}}" type="text" cursor-spacing="7" maxlength="100" bindinput="bindMsgInput" />
+  <label>文字表情混合显示</label>
+  <view class="showEmoji">
+    <emoji text="{{text}}" />
+  </view>
 </view>
 <view>
-  <emoji text="{{text}}" />
+  <label>表情输入的文本内容</label>
+  <view>
+    <input value="{{text}}" type="text" focus="{{focus}}" cursor="{{cursor}}" maxlength="100" bindinput="bindMsgInput" />
+  </view>
+</view>
+<view>
+  <label>表情选择器（点击表情输入）</label>
+  <view>
+    <keyboard text="{{text}}" bindinput="bindEmojiInput" />
+  </view>
 </view>

@@ -1,0 +1,12 @@
+@import "emoji.wxss";
+.emojiInput{
+  height: 257px;
+  padding: 5px 15px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #fff;
+  text-align: center;
+}
+.emojiSelect{
+  margin: 6px;
+}

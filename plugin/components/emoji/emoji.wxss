@@ -2,6 +2,7 @@
   background: url('http://static.wlniao.com/lts/emoji/qqface.png') no-repeat scroll 0 0 transparent;
   width: 58rpx;
   height: 58rpx;
+  margin:-3px;
   vertical-align: text-bottom;
 }
 .emoji-text {
